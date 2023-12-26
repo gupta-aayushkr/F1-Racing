@@ -79,12 +79,6 @@ client_secret = dbutils.secrets.get(scope='formula1-scope', key='client-secret-a
 
 # COMMAND ----------
 
-# client_id = "d3e1e6dd-eca2-47bf-84ce-67017f88c3a3"
-# tenant_id = "8f1c9f30-0dbc-42d9-9b25-9777fa5e2e65"
-# client_secret = "3gw8Q~eQatsidbNd-jtpEhIqMvKtfF.jXfxP6dqD"
-
-# COMMAND ----------
-
 spark.conf.set("fs.azure.account.auth.type.formula01dl.dfs.core.windows.net", "OAuth")
 spark.conf.set("fs.azure.account.oauth.provider.type.formula01dl.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
 spark.conf.set("fs.azure.account.oauth2.client.id.formula01dl.dfs.core.windows.net", client_id)

@@ -16,11 +16,6 @@ client_id = dbutils.secrets.get(scope='formula1-scope', key='client-id-adb')
 tenant_id = dbutils.secrets.get(scope='formula1-scope', key='tenant-id-adb')
 client_secret = dbutils.secrets.get(scope='formula1-scope', key='client-secret-adb')
 
-# COMMAND ----------
-
-# client_id = "d3e1e6dd-eca2-47bf-84ce-67017f88c3a3"
-# tenant_id = "8f1c9f30-0dbc-42d9-9b25-9777fa5e2e65"
-# client_secret = "3gw8Q~eQatsidbNd-jtpEhIqMvKtfF.jXfxP6dqD"
 
 # COMMAND ----------
 
