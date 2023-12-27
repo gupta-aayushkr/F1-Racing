@@ -2,12 +2,6 @@
 
 This repository serves as documentation for a Formula1 Racing project created using Azure services for data engineering. The project aims to process Formula 1 racing data, create an automated data pipeline, and make the data available for presentation and analysis purposes.
 
-**Table of Contents**
-- [Formula 1 Racing Project Overview](#formula-1-racing-project-overview)
-- [Project Resources and Architecture](#project-resources-and-architecture)
-- [Architecture Explanation & Project Working](#architecture-explanation--project-working)
-- [Azure Data Factory Pipeline Orchestration](#azure-data-factory-pipeline-orchestration)
-- [Budget Analysis For Project](#budget-analysis-for-project)
 
 ## Formula 1 Racing Project Overview
 
